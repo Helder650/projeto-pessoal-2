@@ -1,0 +1,42 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.library {
+  margin-top: 30px;
+}
+
+.menu button {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.menu button.active {
+  background: #007bff;
+  color: white;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.content pre {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
